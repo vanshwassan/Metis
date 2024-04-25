@@ -1,6 +1,6 @@
 # Overview
 
-<figure><img src="../../.gitbook/assets/Metis Architecture of Decentralized Sequencer(4).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Metis Sequencer Abstracted Structure_.drawio.png" alt=""><figcaption><p>Abstracted diagram of Decentralized Sequencer architecture, <a href="https://drive.google.com/file/d/14bQChT5v_hDrViw1my1_v7CP5X1DgLrY/view?usp=sharing">link</a></p></figcaption></figure>
 
 In this section we are going to shortly describe the overall system overview on which the decentralized sequencer pool was built upon.
 
