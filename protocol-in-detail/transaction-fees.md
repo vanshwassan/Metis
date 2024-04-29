@@ -1,4 +1,4 @@
-# Transaction Fees on the Metis Platform
+# Transaction Fees
 
 Transaction fees on the Metis platform are a little different from the Ethereum network. There is no difference from the end-user view, but you must consider some differences as a developer.
 
@@ -8,7 +8,7 @@ There are 3 primary actions when interacting with the Metis platform in the case
 * Layer 1 to Layer 2 transactions
 * Layer 2 to Layer 1 transactions
 
-### Fees for L2 Transactions <a href="#_6lv50cgqoeb" id="_6lv50cgqoeb"></a>
+### Fees for L2 Transactions <a href="#id-6lv50cgqoeb" id="id-6lv50cgqoeb"></a>
 
 Fees on Metis are denominated in METIS tokens. The formula is the same as what you see on the Ethereum platform.
 
@@ -19,7 +19,7 @@ You should use eth\_gasPrice to determine the appropriate gas price needed. Also
 * Note that if the _transaction.gasPrice_ is too low, your transaction will be rejected.
 * If you supply a _transaction.gasLimit_ less than the value of _eth\_estimateGas_, your transaction will be rejected.
 
-#### Metis Gas Estimation Method <a href="#_pt4sjuw53aym" id="_pt4sjuw53aym"></a>
+#### Metis Gas Estimation Method <a href="#pt4sjuw53aym" id="pt4sjuw53aym"></a>
 
 As a developer, you must know the gas estimation method. eth\_estimateGas will return:
 
@@ -32,13 +32,13 @@ Where:
 * gasUsed is the standard result of eth\_estimateGas for a transaction.
 * executionPrice is a variable that reflects the current congestion level on Layer 2, much like the gasPrice on Layer 1.
 
-### Fees for Layer 1 to Layer 2 Transactions <a href="#_rgdby0nkjvvu" id="_rgdby0nkjvvu"></a>
+### Fees for Layer 1 to Layer 2 Transactions <a href="#rgdby0nkjvvu" id="rgdby0nkjvvu"></a>
 
 When you create an L1 to L2 transaction, you only need to pay for the standard Ethereum gas cost. The gas costs are associated with the transaction you are going to create. The USD-denominated cost of the transaction depends on some specific factors, including the level of the current L1 congestion and the current ETH price. It can be between $15 and $75.
 
 Furthermore, the measurement may vary according to additional contract logic and transactions that are performed before the L1-L2 transaction.
 
-### Fees for Layer 2 to Layer 1 Transactions <a href="#_7xfs38io3e3p" id="_7xfs38io3e3p"></a>
+### Fees for Layer 2 to Layer 1 Transactions <a href="#id-7xfs38io3e3p" id="id-7xfs38io3e3p"></a>
 
 Layer 2 to Layer 1 transactions tend to be a little more expensive than Layer 1 to Layer 2 transactions. It’s because you need to create a transaction on both L2 and L1 in this type of bridging.
 

@@ -161,6 +161,6 @@ When this happens, the Block Producer stops producing blocks to the Metis Smart 
 
 ## **Diagrams** <a href="#riv4fxyvrlil" id="riv4fxyvrlil"></a>
 
-<figure><img src="../../.gitbook/assets/Metis Smart L2 Flowchart (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Metis Smart L2 Flowchart (1).png" alt=""><figcaption></figcaption></figure>
 
 {% embed url="https://lucid.app/lucidspark/8c0b52b0-71ae-4ac2-ab6e-17eeab0965c7/edit?viewport_loc=-1712%2C-1727%2C15112%2C7758%2C0_0&invitationId=inv_0fab1530-41c8-4878-b76c-3f9293512b7b" %}

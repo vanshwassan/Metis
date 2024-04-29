@@ -1,13 +1,13 @@
-# Synchronization Specifications
+# Sync Specifications
 
-### Synchronization Specifications <a href="#_550ndvpfbbxt" id="_550ndvpfbbxt"></a>
+### Synchronization Specifications <a href="#id-550ndvpfbbxt" id="id-550ndvpfbbxt"></a>
 
 Transaction data can be indexed from either L1 or L2. This data is used for doing the execution process which generates the state. Synchronization is the process of scanning the network for new transactions and changes in the blockchain that helps us guarantee the information of transactions and their authenticity.
 
 * The benefit of synching transactions from L2 is that we can sync the data before the transactions are batch submitted.
 * The benefit of synching from L2 is that the transactions are all final which will provide a fraud-proof state.
 
-### Retrieving Relevant Data <a href="#_oirydeb8bdx7" id="_oirydeb8bdx7"></a>
+### Retrieving Relevant Data <a href="#oirydeb8bdx7" id="oirydeb8bdx7"></a>
 
 We need to retrieve the following information reliably in order to perform a reliable synchronization:
 
@@ -22,7 +22,7 @@ All relevant data can be retrieved by parsing the data from the following functi
 * `CanonicalTransactionChain.appendSequencerBatch`
 * `StateCommitmentChain.appendStateBatch`
 
-### Enqueued Transactions <a href="#_n8rnqzedtv9m" id="_n8rnqzedtv9m"></a>
+### Enqueued Transactions <a href="#n8rnqzedtv9m" id="n8rnqzedtv9m"></a>
 
 Note that transactions are “enqueued” when users make calls to the `CanonicalTransactionChain.enqueue` function.
 
@@ -51,7 +51,7 @@ Altogether, the process of parsing and indexing the data is pretty straightforwa
 2. Parse each found event into EnqueuedTransaction structures.
 3. Store each event based on its queueIndex field.
 
-### Transactions Via appendQueueBatch <a href="#_7qgwxv6nwe5" id="_7qgwxv6nwe5"></a>
+### Transactions Via appendQueueBatch <a href="#id-7qgwxv6nwe5" id="id-7qgwxv6nwe5"></a>
 
 :::Note that the `appendQueueBatch` is currently disabled on the mainnet.:::
 
@@ -97,7 +97,7 @@ return transactions
 }
 ```
 
-### Transactions Via appendSequencerBatch <a href="#_frr6x6si7ood" id="_frr6x6si7ood"></a>
+### Transactions Via appendSequencerBatch <a href="#frr6x6si7ood" id="frr6x6si7ood"></a>
 
 Using `appendSequencerBatch` is another method in which transactions can be inserted into the Canonical Transaction Chain. The main benefit of `appendSequencerBatch` is that it uses a custom encoding scheme in order to enhance efficiency and it does not have any explicit parameters.
 
@@ -209,7 +209,7 @@ return calldata
 }
 ```
 
-### The Method <a href="#_gmny8kmidgqm" id="_gmny8kmidgqm"></a>
+### The Method <a href="#gmny8kmidgqm" id="gmny8kmidgqm"></a>
 
 When the sequencer calls `appendQueueBatch`, contexts are processed one by one.
 

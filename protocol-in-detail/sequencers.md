@@ -1,6 +1,6 @@
 # Sequencers
 
-### Sequencers <a href="#_72f5dje02ne5" id="_72f5dje02ne5"></a>
+### Sequencers <a href="#id-72f5dje02ne5" id="id-72f5dje02ne5"></a>
 
 A sequencer plays a key role in the blockchain ecosystem. The sequencer is responsible for sorting transactions and it records the transactions on its local blockchain platform.
 
@@ -13,7 +13,7 @@ According to the diagram, an L2 user gives a request by performing a transaction
 * It sorts the transactions and periodically sends them to the `CanonicalTransactionChain` contract.
 * This way, we ensure the transaction ordering and data availability.
 
-### Unusual Cases <a href="#_vn2oooueag3" id="_vn2oooueag3"></a>
+### Unusual Cases <a href="#vn2oooueag3" id="vn2oooueag3"></a>
 
 Note that if the sequencer is unavailable to work or is malicious, L2 users can directly post transactions to the `CanonicalTransactionChain` contract.
 
@@ -21,7 +21,7 @@ In order to prevent edge-case conditions where users include a transaction that 
 
 ![](https://3353191897-files.gitbook.io/\~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-McQf9YqnjTLsZKxr\_aB%2Fuploads%2FoWjNVPieDwHsQiqahlYa%2FSequencer-Fraud%20Proof%20Part%204%20-%20PostExecution-Malicious%20Sequencer.png?alt=media\&token=21ef7343-1008-4a42-bf87-5805e1ed0efe)
 
-### What Is the Role of the State Commitment? <a href="#_ph8gr5crjdgy" id="_ph8gr5crjdgy"></a>
+### What Is the Role of the State Commitment? <a href="#ph8gr5crjdgy" id="ph8gr5crjdgy"></a>
 
 ![](https://3353191897-files.gitbook.io/\~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-McQf9YqnjTLsZKxr\_aB%2Fuploads%2FNvIY1WT9D2jhBXp2IWdo%2FSequencer-Fraud%20Proof%20Part%204%20-%20PostExecution-L2%20Transaction-State%20Commitment%20Chain.png?alt=media\&token=0edbbaf0-ba90-45cd-a398-69cda36d8a89)
 

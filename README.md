@@ -23,7 +23,7 @@ Read more on [Oracles](tools/oracles/)
 
 Metis Nodes allow security and reliability to come to the forefront. Blockchain nodes store a complete copy of the distributed network and play an important role in the blockchain ecosystem.
 
-Read more on [Nodes](deprecated/protocol-in-detail/)
+Read more on [Nodes](protocol-in-detail/)
 
 #### Metis NFT Bridge <a href="#rxl6s4r87tzi" id="rxl6s4r87tzi"></a>
 

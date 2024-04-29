@@ -31,7 +31,7 @@ The solution is to design a way for the transfer of NFTs across layers. Also, us
 
 Here is a representation of the solution, helping you get the idea. Making use of this method, users can have their NFT contracts on both blockchain layers and withdraw/deposit at any time they want.
 
-![](<../../.gitbook/assets/0 (1)>)
+![](<../.gitbook/assets/0 (1)>)
 
 ### Initializing the NFT contract <a href="#id-7jl4io2sjucn" id="id-7jl4io2sjucn"></a>
 
@@ -84,15 +84,15 @@ The following sequence diagrams give you full insight into cross-platform NFTs a
 
 #### Provisioning <a href="#et5xhwky07eq" id="et5xhwky07eq"></a>
 
-![](<../../.gitbook/assets/1 (1)>)
+![](<../.gitbook/assets/1 (1)>)
 
 ### Layer 1 => Layer 2 <a href="#id-42yg4sfauifw" id="id-42yg4sfauifw"></a>
 
-![](../../.gitbook/assets/2)
+![](../.gitbook/assets/2)
 
 ### Layer 2 => Layer 1 <a href="#jxdvm7fwhiwn" id="jxdvm7fwhiwn"></a>
 
-![](<../../.gitbook/assets/3 (2) (2)>)
+![](<../.gitbook/assets/3 (2) (2)>)
 
 ### Extensions <a href="#id-2lsm4c7e9k9" id="id-2lsm4c7e9k9"></a>
 
