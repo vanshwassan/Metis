@@ -29,7 +29,7 @@ Read more on [Nodes](protocol-in-detail/)
 
 Built by a team of blockchain professionals, Metis NFT Bridge provides everything you need for connecting two different networks.
 
-Read more on  [Why use the Metis NFT bridge](https://app.gitbook.com/o/G4KKHlD52DFa4pHrw51i/s/MkexAWdCekeDPPCMOdGs/\~/changes/kD3RNZAYVe4u0VhGB046/browse-in-the-metis-technology/metis-nft-bridge/why-use-the-metis-nft-bridge)
+Read more on  [Why use the Metis NFT bridge](https://docs.metis.io/dev/bridge/nft-bridge)
 
 #### Metis Data Indexers <a href="#h1ka8epzf8qo" id="h1ka8epzf8qo"></a>
 
