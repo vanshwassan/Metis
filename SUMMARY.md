@@ -27,9 +27,7 @@
 
 ## Tools
 
-* [Analytics](tools/analytics/README.md)
-  * [DefLlama](https://defillama.com/chain/Metis?tvl=true)
-  * [Orbiter.finance](https://www.orbiter.finance/dataDetail?nav=Rollups)
+* [Analytics](tools/analytics.md)
 * [Frameworks](tools/frameworks/README.md)
   * [Cookbook](https://www.cookbook.dev/search?q=\&sort=popular\&filter=\&page=1)
   * [Thirdweb](https://thirdweb.com/explore)
