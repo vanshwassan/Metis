@@ -51,21 +51,12 @@ const config: HardhatUserConfig = {
             "https://api.routescan.io/v2/network/mainnet/evm/1088/etherscan",
           browserURL: "https://explorer.metis.io",
         },
-      },
-      {
-        network: "metis-goerli",
-        chainId: 599,
-        urls: {
-          apiURL: "https://goerli.explorer.metisdevops.link/api",
-          browserURL: "https://goerli.explorer.metisdevops.link",
-        },
-      },
       {
         network: "metis-sepolia",
-        chainId: 59901,
+        chainId: 59902,
         urls: {
-          apiURL: "https://sepolia.explorer.metisdevops.link/api",
-          browserURL: "https://sepolia.explorer.metisdevops.link",
+          apiURL: "https://sepolia-explorer.metisdevops.link/api",
+          browserURL: "https://sepolia-explorer.metisdevops.link",
         },
       },
     ],
