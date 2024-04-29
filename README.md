@@ -25,6 +25,12 @@ Metis Nodes allow security and reliability to come to the forefront. Blockchain 
 
 Read more on [Nodes](protocol-in-detail/)
 
+#### Metis NFT Bridge <a href="#rxl6s4r87tzi" id="rxl6s4r87tzi"></a>
+
+Built by a team of blockchain professionals, Metis NFT Bridge provides everything you need for connecting two different networks.
+
+Read more on  [Why use the Metis NFT bridge](https://app.gitbook.com/o/G4KKHlD52DFa4pHrw51i/s/MkexAWdCekeDPPCMOdGs/\~/changes/kD3RNZAYVe4u0VhGB046/browse-in-the-metis-technology/metis-nft-bridge/why-use-the-metis-nft-bridge)
+
 #### Metis Data Indexers <a href="#h1ka8epzf8qo" id="h1ka8epzf8qo"></a>
 
 Data indexers are third-party services that provide APIs and SDKs for raw and processed blockchain data on transactions, dApp-specific data, as well as additional offchain data such as token prices on Metis chain.
