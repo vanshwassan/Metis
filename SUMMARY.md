@@ -10,16 +10,6 @@
   * [Verifying Deployed Contracts](get-started/verifying-deployed-contracts.md)
   * [Client Integration](readme/client-integration.md)
   * [Run A Verifier Node](https://github.com/ericlee42/metis-verifier-node)
-* [Protocol in Detail](protocol-in-detail/README.md)
-  * [Protocol FAQ](protocol-in-detail/protocol-faq.md)
-  * [Metis L2 Explained](protocol-in-detail/metis-l2-explained.md)
-  * [Transaction Fees](protocol-in-detail/transaction-fees.md)
-  * [Chains](protocol-in-detail/chains.md)
-  * [Sequencers](protocol-in-detail/sequencers.md)
-  * [Cross Layer NFTs](protocol-in-detail/cross-layer-nfts.md)
-  * [Actors and Their Roles](protocol-in-detail/actors-and-their-roles.md)
-  * [Sync Specifications](protocol-in-detail/sync-specifications.md)
-  * [Cross Domain Messaging](protocol-in-detail/cross-domain-messaging.md)
 
 ## Decentralized Sequencer
 
@@ -60,3 +50,16 @@
 * [Help Center](support/help-center.md)
 * [Metis Audits](support/metis-audits.md)
 * [Bug Bounty](https://immunefi.com/bounty/metis/)
+
+## Deprecated
+
+* [Protocol in Detail](deprecated/protocol-in-detail/README.md)
+  * [Protocol FAQ](deprecated/protocol-in-detail/protocol-faq.md)
+  * [Metis L2 Explained](deprecated/protocol-in-detail/metis-l2-explained.md)
+  * [Transaction Fees](deprecated/protocol-in-detail/transaction-fees.md)
+  * [Chains](deprecated/protocol-in-detail/chains.md)
+  * [Sequencers](deprecated/protocol-in-detail/sequencers.md)
+  * [Cross Layer NFTs](deprecated/protocol-in-detail/cross-layer-nfts.md)
+  * [Actors and Their Roles](deprecated/protocol-in-detail/actors-and-their-roles.md)
+  * [Sync Specifications](deprecated/protocol-in-detail/sync-specifications.md)
+  * [Cross Domain Messaging](deprecated/protocol-in-detail/cross-domain-messaging.md)

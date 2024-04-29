@@ -22,7 +22,7 @@ There are 7 distinguished actors participating in the system (Governance Protoco
 
 **Merkle Tree State Root (MTSR)** - The calculated state hash of the transaction execution. Think of it as a the resulting value after executing the transactions in the order that they are specified (e.g. 1 + 2 + 3 = **6**)
 
-## **Process** <a href="#_oamnefrlujtz" id="_oamnefrlujtz"></a>
+## **Process** <a href="#oamnefrlujtz" id="oamnefrlujtz"></a>
 
 The entire structure of Metis Smart L2 is designed around several process loops which are designated to mitigate the potential damage and filter the possible malfunctions of decentralized actors and/or other outer ill-wishers.
 
@@ -108,7 +108,7 @@ This occurs when the data is present on Memolabs or the Peer Network transaction
 
 It is a special state when the system stops in some sense, because the security of transactions after the problematic batch can not be guaranteed. The System will get out of the insecure transaction state after the data availability request time window (currently set at 24 hours) or until the Sequencer provides the valid data.
 
-## **Special Scenarios FAQ** <a href="#_sghwxg6kz4gu" id="_sghwxg6kz4gu"></a>
+## **Special Scenarios FAQ** <a href="#sghwxg6kz4gu" id="sghwxg6kz4gu"></a>
 
 ### What is the process for Sequencer Rotation?
 
@@ -159,8 +159,8 @@ When this happens, the Block Producer stops producing blocks to the Metis Smart 
     * **3.B.2.B.3** - The Block Producer gets rotated by Layer 1;
     * **3.B.2.B.4** - The Smart L2 gets re-enabled. The User has to resend the transaction.
 
-## **Diagrams** <a href="#_riv4fxyvrlil" id="_riv4fxyvrlil"></a>
+## **Diagrams** <a href="#riv4fxyvrlil" id="riv4fxyvrlil"></a>
 
-<figure><img src="../.gitbook/assets/Metis Smart L2 Flowchart (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Metis Smart L2 Flowchart (1).png" alt=""><figcaption></figcaption></figure>
 
 {% embed url="https://lucid.app/lucidspark/8c0b52b0-71ae-4ac2-ab6e-17eeab0965c7/edit?viewport_loc=-1712%2C-1727%2C15112%2C7758%2C0_0&invitationId=inv_0fab1530-41c8-4878-b76c-3f9293512b7b" %}
