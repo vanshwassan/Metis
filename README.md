@@ -13,12 +13,6 @@ Metis offers an exclusive list of products to blockchain project developers, app
 
 Select a product to start with Ethereum Layer 2 and access an extended range of opportunities.
 
-#### Metis NFT Bridge <a href="#rxl6s4r87tzi" id="rxl6s4r87tzi"></a>
-
-Built by a team of blockchain professionals, Metis NFT Bridge provides everything you need for connecting two different networks.
-
-Read more on [Why use the Metis NFT bridge](https://app.gitbook.com/o/G4KKHlD52DFa4pHrw51i/s/MkexAWdCekeDPPCMOdGs/\~/changes/kD3RNZAYVe4u0VhGB046/browse-in-the-metis-technology/metis-nft-bridge/why-use-the-metis-nft-bridge)
-
 #### Metis Oracles <a href="#id-9ciejj5cougz" id="id-9ciejj5cougz"></a>
 
 Oracles connect blockchains to external systems and provide smart contracts with external information. A Metis Oracle gives Ethereum projects on-time data from the outside world to perform reliable actions.
