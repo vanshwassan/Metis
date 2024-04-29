@@ -4,5 +4,5 @@ Navigate to this [link](https://github.com/MetisProtocol/metis-testnet-token?tab
 
 ### If you need more Test Tokens <a href="#z98tmu8zem2" id="z98tmu8zem2"></a>
 
-Join the [Discord](https://discord.gg/S3SmrCFZ) and make a request in the #metis-test-tokens channel
+Join the [Telegram](https://t.me/metis\_dev) and make a request in the #metis-test-tokens channel
 
