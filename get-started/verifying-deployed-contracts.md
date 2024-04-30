@@ -26,11 +26,8 @@ const config: HardhatUserConfig = {
     },
   },
   networks: {
-    "metis-goerli": {
-      url: "https://goerli.gateway.metisdevops.link",
-    },
     "metis-sepolia": {
-      url: "https://sepolia.rpc.metisdevops.link",
+      url: "https://sepolia.metisdevops.link/",
     },
     andromeda: {
       url: "https://andromeda.metis.io/?owner=1088",
@@ -77,7 +74,7 @@ Greeter deployed to: 0x06F8CfB8d4d40ba65C64fC40F4A45218A1072eF5
 ### Verify your contracts
 
 ```
-$ yarn hardhat --network metisgoerli verify  --contract contracts/Greeter.sol:Greeter 0x06F8CfB8d4d40ba65C64fC40F4A45218A1072eF5 'Hello, Hardhat!' 
+$ yarn hardhat --network metis-sepolia verify  --contract contracts/Greeter.sol:Greeter 0x06F8CfB8d4d40ba65C64fC40F4A45218A1072eF5 'Hello, Hardhat!' 
 Nothing to compile
 No need to generate any newer typings.
 Successfully submitted source code for contract
@@ -125,23 +122,13 @@ const config: HardhatUserConfig = {
     },
   },
   networks: {
-    "metis-goerli": {
-      url: "https://goerli.gateway.metisdevops.link",
-      accounts: [process.env.PRIVATE_KEY],
-      verify: {
-        etherscan: {
-          apiKey: "apiKey is not required, just set a placeholder",
-          apiUrl: "https://goerli.explorer.metisdevops.link",
-        },
-      },
-    },
     "metis-sepolia": {
-      url: "https://sepolia.rpc.metisdevops.link",
+      url: "https://sepolia.metisdevops.link",
       accounts: [process.env.PRIVATE_KEY],
       verify: {
         etherscan: {
           apiKey: "apiKey is not required, just set a placeholder",
-          apiUrl: "https://sepolia.explorer.metisdevops.link",
+          apiUrl: "https://sepolia-explorer.metisdevops.link/api",
         },
       },
     },
