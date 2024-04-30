@@ -28,14 +28,7 @@
 ## Tools
 
 * [Analytics](tools/analytics.md)
-* [Frameworks](tools/frameworks/README.md)
-  * [Cookbook](https://www.cookbook.dev/search?q=\&sort=popular\&filter=\&page=1)
-  * [Thirdweb](https://thirdweb.com/explore)
-* [Oracles](tools/oracles/README.md)
-  * [DIA](https://docs.diadata.org/documentation/oracle-documentation/deployed-contracts#metis)
-  * [Witnet](https://docs.witnet.io/smart-contracts/supported-chains)
-  * [API3 QRNG](https://docs.api3.org/qrng/)
-  * [Chainlink](https://docs.chain.link/docs/data-feeds-metis/)
+* [Oracles](tools/oracles.md)
 * [Indexers](tools/indexers/README.md)
   * [Flair](tools/indexers/flair.md)
   * [Envio](tools/indexers/envio.md)

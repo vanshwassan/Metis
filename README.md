@@ -17,7 +17,7 @@ Select a product to start with Ethereum Layer 2 and access an extended range of 
 
 Oracles connect blockchains to external systems and provide smart contracts with external information. A Metis Oracle gives Ethereum projects on-time data from the outside world to perform reliable actions.
 
-Read more on [Oracles](tools/oracles/)
+Read more on [Oracles](tools/oracles.md)
 
 #### Metis Nodes <a href="#z11ooy9etr4o" id="z11ooy9etr4o"></a>
 
