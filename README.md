@@ -1,9 +1,14 @@
 # Building On Metis L2
 
-Metis is an Ethereum Layer 2 Rollup platform that offers simple and fast smart contract deployment within the network. Metis provides several solutions to solve the big challenges we face in the main net Ethereum, including transaction speed, cost, and scalability.
+Metis is an Ethereum Layer 2 Rollup platform that offers simple and fast smart contract deployment within the network. Metis L2 provides solutions to solve some of the big challenges present on the Ethereum network, including transaction speed, cost, and scalability. Moreover, Metis is the first Optimistic Rollup that has achieved sequencer decentralization, eliminating single points of failure and properly aligning incentives between all network participants.\
+
+
+<figure><img src=".gitbook/assets/GFpk8LmbIAA8RfK (1).jpeg" alt=""><figcaption></figcaption></figure>
+
+**To quickly start building on Metis L2, we suggest you visit the following link:**
 
 * [Metis Connection Details](readme/connection-details.md): Use the Metis connection details section to set your MetaMask account to be able to get Metis tokens.
-* [Getting ](https://github.com/MetisProtocol/metis-testnet-token?tab=readme-ov-file#how-to-get-the-test-tokens)Test Tokens: In order to deploy smart contracts on the testnet, you need to get some test tokens for free.
+* [Getting Test Tokens](https://github.com/MetisProtocol/metis-testnet-token?tab=readme-ov-file#how-to-get-the-test-tokens): In order to deploy smart contracts on the testnet, you need to get some test tokens for free.
 * [Deploying On Metis](get-started/deploying-on-metis.md): You can write your code after getting test tokens and deploy it on the Goerli testnet.
 * [Verifying Deployed Contracts](get-started/verifying-deployed-contracts.md): Verifying the code after deployment is a simple process and you can verify contracts in a few seconds using the Hardhat configuration or Metis Goerli explorer.
 
