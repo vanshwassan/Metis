@@ -2,7 +2,7 @@
 
 <figure><img src="../../.gitbook/assets/Blank diagram.png" alt="" width="375"><figcaption></figcaption></figure>
 
-The Sequencer node (or Metis node) includes&#x20;
+The Sequencer node includes:&#x20;
 
 1. L2 Geth (including the OP-Node)
 2. Batch submitter (Proposer)
