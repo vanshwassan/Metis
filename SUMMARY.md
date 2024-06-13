@@ -37,6 +37,7 @@
 
 ## Support
 
+* [Beginners table](support/beginners-table.md)
 * [Help Center](support/help-center.md)
 * [Metis Audits](support/metis-audits.md)
 * [Bug Bounty](https://immunefi.com/bounty/metis/)
